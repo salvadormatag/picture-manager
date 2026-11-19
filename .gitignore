@@ -1,0 +1,43 @@
+# ==========================================
+# JetBrains / PhpStorm / PyCharm
+# ==========================================
+.idea/
+*.iml
+out/
+
+# ==========================================
+# Python (Caché i compilats)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entorns virtuals (per si en crees un en el futur)
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# PyInstaller / Empaquetat (restes de proves)
+# ==========================================
+build/
+dist/
+*.spec
+*.exe
+
+# ==========================================
+# Fitxers locals i de proves del projecte
+# ==========================================
+# Informes CSV generats per proves
+informe_duplicats_*.csv
+
+# Carpetes de proves amb imatges duplicades
+_DUPLICATS_REVISAR/
+
+# Fitxers de sistema de Windows
+Thumbs.db
+Desktop.ini
+*.lnk
