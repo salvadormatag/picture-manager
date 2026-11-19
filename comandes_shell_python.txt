@@ -1,0 +1,3 @@
+Generar .exe
+py -m PyInstaller --noconsole --onefile --name "PhotoDeduperPro" --collect-all customtkinter main.py
+py -m PyInstaller --noconsole --onefile --clean --name "PhotoDeduperPro" --collect-all customtkinter --collect-all PIL --hidden-import PIL._tkinter_finder main.py
